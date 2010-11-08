@@ -1,0 +1,11 @@
+Usage:
+
+Show usage info:
+python markov.py --help
+
+Generate 10 sentences from a model:
+python markov.py --inputfile=models/sentences_et.horoscopes.model -n 10
+
+Train model from sample data:
+python markov.py --datadir=path/to/data/ --extension=.txt --output=your.model
+
